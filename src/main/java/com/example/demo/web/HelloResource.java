@@ -9,7 +9,7 @@ public class HelloResource {
 
 	@GetMapping("/sayHello")
 	public String sayHello(@RequestParam("name") String name) {
-		return "Hello, " + name;
+		return "Hello Again, " + name;
 	}
 	
 }
